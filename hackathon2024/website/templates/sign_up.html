@@ -1,0 +1,23 @@
+{% extends "background.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<form method="POST">
+    <h3 align="center" style="font-family: Georgia, 'Times New Roman', Times, serif;">Sign Up</h3>
+    
+    {% for field in ["email", "First Name", "Password", "Confirm Password"] %}
+    <div class="form-group">
+        <label for="{{ field }}">{{ field|title }}</label>
+        <input type="{% if 'password' in field %}password{% elif 'email' in field %}email{% else %}text{% endif %}" 
+               class="form-control" 
+               id="{{ field }}" 
+               name="{{ field }}" 
+               placeholder="Enter {{ field|title }}"/>
+    </div>
+    {% endfor %}
+    
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
