@@ -7,4 +7,5 @@ Mostly a learning experience on how to create your own website.
 Most of the code can be found in this youtube video: https://www.youtube.com/watch?v=dam0GPOAvVI
 Through watching this tutorial I learned many things about SQL, Flask, and HTML.
 # Images
-![Alt text](firefox_AZ46mSZ8uZ)
+
+![firefox_AZ46mSZ8uZ](https://github.com/BlakeAbr/TaskManager/assets/112440148/d50bc7af-59b3-4b46-86bc-29034b709daf)
